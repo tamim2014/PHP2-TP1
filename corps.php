@@ -1,7 +1,5 @@
-	<div id="contenu">
-		<h3> TP1: Exercice1</h3>
-	</div>
 	
+	<h3> TP1: Exercice1</h3>		
 	<?php  
 	
 	   // COLLECTE  et   TRAITEMENT
