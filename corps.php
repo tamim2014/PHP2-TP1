@@ -1,5 +1,5 @@
 	<div id="contenu">
-		<h3> TP2: Exercice1</h3>
+		<h3> TP1: Exercice1</h3>
 	</div>
 	
 	<?php  

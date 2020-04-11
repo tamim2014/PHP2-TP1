@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>TP2: Exercice3</title>
+	<title>TP1: Exercice3</title>
 </head>
 <body>
 	<!-- <form action="pageProtege.php" method="post"> -->
