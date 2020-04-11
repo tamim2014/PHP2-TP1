@@ -58,7 +58,7 @@
 		}
 		*************************************************/	   
    ?>
-   <button onclick="window.location.href='form.php';">Formulaire de saisie</button>
+   <p><button onclick="window.location.href='form.php';">Formulaire de saisie</button></p>
    <button onclick="window.location.href='login.php';">Login</button>
    
    
