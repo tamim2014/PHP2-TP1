@@ -2,7 +2,7 @@
 	<h3> TP1: Exercice1</h3>		
 	<?php  
 	
-	   // COLLECTE  et   TRAITEMENT
+	   // COLLECTE 
 		   
 	   //if(isset($_GET["nom"])) $nom = $_GET["nom"];
 	   $nom = isset($_GET["nom"]) ? $_GET["nom"] : ''; // évite la "Notice: Undefined variable"
@@ -22,26 +22,13 @@
 	   if(empty($nbFois))  echo 'Préciser le nbFois<br>';
 
 		  
-	  	   
-
 	   // AFFICHAGE
 	   echo '
 	   <table>
-		 <tr>
-		     <td >Nom:</td>
-			 <td >'.$nom.' </td>
-		 </tr>
-		 <tr>
-			 <td >Prénom:</td>
-			 <td >'.$prenom.' </td>
-		 </tr>
-		 <tr>
-			 <td>Mot de passe:</td>
-			 <td>'.$password.'</td>
-		 </tr>
-		 
-		 <tr>
-			 <td>Punition:</td>
+		 <tr><td >Nom:</td><td >'.$nom.' </td></tr>		 
+		 <tr><td >Prénom:</td><td >'.$prenom.'</td></tr>			 		 
+		 <tr><td>Mot de passe:</td><td>'.$password.'</td></tr>		 
+		 <tr><td>Punition:</td>			 
 			 <td>';
 				$n = 1;
 				while ($n <= $nbFois)
@@ -69,10 +56,9 @@
 			echo $punition.'<br />';
 			$n++; 
 		}
-		*************************************************/
-	   
+		*************************************************/	   
    ?>
-   <p><a href="form.php"> Formulaire de saisie </a></p>
-    <p><a href="login.php"> login </a></p>
+   <button onclick="window.location.href='form.php';">Formulaire de saisie</button>
+   <button onclick="window.location.href='login.php';">Login</button>
    
    
