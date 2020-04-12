@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<title> PHP2: TP1/Exercice1 </title>
 	<link rel="stylesheet" href="style.css" />
+	<link rel="shortcut icon" href="favicon.ico"  />
 </head>
 
 <body>

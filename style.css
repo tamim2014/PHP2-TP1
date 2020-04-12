@@ -1,6 +1,41 @@
  body{  
-    margin:0 30%; 
+    margin:5% 30%; 
+	background:#ECECEA;
  }
+ 
+ /************** barre laterale *********************/
+.barreLeterale {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#558c89; /* #111; */
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.barreLeterale a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #aaa; /* #818181  */
+  display: block;
+}
+
+.barreLeterale a:hover {
+  color: #f1f1f1; /*  */
+}
+
+@media screen and (max-height: 450px) {
+  .barreLeterale {padding-top: 15px;}
+  .barreLeterale a {font-size: 18px;}
+}
+ 
+
+ 
+ /************* Contenu ******************/
 
  h4, .contenu, footer{
 	border:1px dashed #8c8b8b;
@@ -20,6 +55,27 @@
  
  /* login.php */
  
+ .form, .affichage, table{	 
+	  margin: 0 auto;
+	  width:100%; 
+	  padding:100px;
+	  background-color:white;   
+	  box-shadow:
+		0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset,
+		0px 2px 2px 0px rgba(255, 255, 255, 0.5);
+	  border:1px solid #8c8b8b; 
+ }
+ table{ border:none;}
+ 
+ button:hover{
+
+	 cursor:pointer;
+ }
+ input{
+	padding:0.5em 10.6em; 
+
+ }
+ 
  form p input{
 	margin-left:1em;
  }
@@ -34,6 +90,53 @@
 	width:6.36em;
  }
  
- input:hover{
-	 background:#eee;
- }
+ 
+ 
+.idS{
+	border:1px solid #8c8b8b ; 
+	padding:1px 4px; 
+	border-radius:0 0 3px 3px;
+							
+	/* box-shadow:0.2px 2px 8px 0px #8c8b8b; */
+	
+	box-shadow:0.2px 2px 16px 0px #8c8b8b; 
+
+	width:100%;/* 96.5%;  */
+	background:white;
+	margin-bottom:1em;
+	/* mettre un display:inline-block; pour appliquer un width à 1 elt inline */ 
+}
+
+.subQuestion{
+   line-height:1.5; 
+   background:white;
+   display:inline-block;
+   width:98.2%;
+}
+.t-transparent{
+	line-height:1.5; 
+	border:none;
+	margin-top:2em !important;
+	margin-bottom:0 !important;
+	background:transparent !important;
+	width:98.2% !important;
+}
+.paragraphe{
+	border:1px solid #8c8b8b; 
+	padding: 0.5em 1em;
+	line-height:1.5;
+	margin:1em 0; 
+	border-radius: 2px;
+	display:inline-block;
+	background:white;
+	width:93.9%;
+
+}
+.numero{ 
+	color:black;
+    font-family:calibri light;	
+	border-radius:50px;		
+	box-shadow:
+	0px 16px 4px 0px white inset,
+	0px 2px 4px 0px inset;		
+}

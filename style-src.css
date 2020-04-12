@@ -1,0 +1,43 @@
+ body{  
+    margin:0 30%; 
+ }
+ 
+
+ 
+ /************* Contenu ******************/
+
+ h4, .contenu, footer{
+	border:1px dashed #8c8b8b;
+	border-radius:6px;
+	padding:2% 22% ;
+ }
+
+ .contenu{
+ 	border-radius:12px;
+ }
+
+ footer{
+	margin-top:1em;
+	padding:2% 0 ;
+	text-align:center;
+ }
+ 
+ /* login.php */
+ 
+ form p input{
+	margin-left:1em;
+ }
+ 
+ form input ~ input {  /* lien vers info.php */
+	margin-left:2.8em;
+	width:6.36em;		 
+ }
+ 
+ form input ~ input ~ input {  /* lien vers info2.php */
+	margin-left:-1em;	
+	width:6.36em;
+ }
+ 
+ input:hover{
+	 background:#eee;
+ }
