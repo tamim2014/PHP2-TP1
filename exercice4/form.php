@@ -15,14 +15,14 @@
 	  <a href="#"><strong>TP1</strong></a>
 	  <a href="../exercice1/index.php">Exercice1</a>
 	  <a href="#">Exercice2</a>
-	  <a href="../exercice3/formulaire.php">Exercice3</a>
-	  <a href="../exercice4/index.php">Exercice4</a>
+	  <a href="#">Exercice3</a>
+	  <a href="#">Exercice4</a>
 	</div>
 
 
     <h1 > Exercice2 </h1>
 	<!-- <form action="corps.php" method="get" class="form" style="padding-right:17em; margin-left:-7em; "> -->
-	<form action="corps.php" method="get" class="form" style="padding:0; margin-left:0;">   
+	<form action="corps.php" method="get" class="form" style="  padding:0; margin-left:0;">   
 	   <table style=" padding:0; margin:0; width:100%;">
 	     <tr><td>Nom :</td><td><input type="text" name="nom" placeholder="Votre nom"></td></tr>
 		 <tr><td>Prénom:</td><td><input type="text" name="prenom" placeholder="Votre prenom"></td></tr>
