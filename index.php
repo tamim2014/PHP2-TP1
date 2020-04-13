@@ -13,7 +13,7 @@
 		}
 		.main {
 			margin-left: 200px; 
-			font-size: 30px; 
+			font-size: 18px; 
 			padding: 0px 10px;
 		}
 		.paragraphe{
@@ -174,25 +174,64 @@
 		   
 				<details>
 				  <summary>Donner un exemple en PHP, avec les deux types.</summary>
-				  &emsp;&#8718; ???<br>
-				  &emsp;&#8718; ...<br>
+				  	<div class="exemple">
+					   <span class="idS subQuestion t-transparent" style="margin-top:0 !important; width:91.91%; background:white !important;">
+						   <pre >
+								&lt;?php
+                                    <span style="color:green">//Tableau numéroté</span> 								
+										$Prenoms=array();
+										$Prenoms[0]='Paul';
+										$Prenoms[1]='Jean';
+										$Prenoms[2]='Jule';
+										
+									<span style="color:green">//Tableau associatif</span>
+                                        $Personne=array();
+										$Personne['Nom']="Jacques";
+										$Personne['Prenom']="Jean";
+										$Personne['Age']=99;									
+								?>
+							</pre>
+					    </span> 
+					</div>
 				</details>
 
 				<details>
 				  <summary>Quelle est la diff&eacute;rence entre les 2 ? </summary>
-				  &emsp;&#8718; ???<br>
-				  &emsp;&#8718; ...<br>
+				  &emsp;&#8718;  &dollar;Prenoms : les indices des éléments sont des nombres<br>
+				  &emsp;&#8718; &dollar;Personne : les indices des éléments sont des chaînes de caractères
 				</details>
 				
 				<details>
 				  <summary>Comment les parcourir ?(cf. for, foreach, print r).</summary>
-				  &emsp;&#8718; ???<br>
-				  &emsp;&#8718; ...<br>
+				  	<div class="exemple" style="width:99%">
+					   <span class="idS subQuestion t-transparent" style="margin-top:0 !important; width:91.91%; background:white !important;">
+						   <pre  style="font-size:0.8em;">
+								&lt;?php
+                                    <span style="color:green">//Tableau numéroté</span> 																		
+										$Prenoms = array( "Paul", "Jean", "jule" );
+										foreach( $Prenoms as $value )  echo $value.'&lt;br&gt;';										
+										
+									<span style="color:green">//Tableau associatif</span>
+										$identite = array( 'Nom'=>'Jacques', 'Prenom'=>'Jean', 'Age'=>'99' );
+										foreach($identite as $value) echo $value.'&lt;br&gt;';									   										
+								?>
+							</pre>
+					    </span> 
+					</div>
 				</details>
 				<details>
 				  <summary>Comment rechercher une valeur ? (cf. array key exists, in array, array search)</summary>
-				  &emsp;&#8718; ???<br>
-				  &emsp;&#8718; ...<br>
+				  <div class="paragraphe" style="padding-left:2px; font-size:0.8em;">
+					  &emsp;&#8718; Vérifiez si la colonne "Age" existe dans la table personne:<br>
+					  &emsp;&#8718; <b>if (array_key_exists("Age",$personne))</b> echo 'La colonne Age éxiste ';<br>
+					  <p></p>
+					  &emsp;&#8718; Est-ce qu'il a une personne de 99ans dans la table  personne?<br>
+					  &emsp;&#8718; <b>echo array_search("99",$personnes);</b><small style="color:green">//Si oui, ça retourne le nom de la colone(Age)</small><br>
+					  <p></p>
+					  &emsp;&#8718; Est-ce que "Paul" il existe dans la table prenom<br>
+					  &emsp;&#8718; <b>if (in_array("Paul", $prenoms))</b> echo 'il est bien présent dans cette table'<br>
+				  </div>
+
 				</details>
 			 
 			 </li>

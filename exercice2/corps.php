@@ -3,15 +3,15 @@
 <head>
 	<link rel="stylesheet" href="../style.css" />
 	<link rel="shortcut icon" href="../favicon.ico"  />
-	<style>button{ padding:2em 15.9em;}</style>	
+	<style>button{ padding:1% 0;}</style>	
 </head>
 <body>
     <div class="barreLeterale">
-	  <a href="#"><strong>TP1</strong></a>
+	  <a href="../index.php"><strong>TP1</strong></a>
 	  <a href="../exercice1/index.php">Exercice1</a>
 	  <a href="#">Exercice2</a>
-	  <a href="#">Exercice3</a>
-	  <a href="#">Exercice4</a>
+	  <a href="../exercice3/formulaire.php">Exercice3</a>
+	  <a href="../exercice4/index.php">Exercice4</a>
 	</div>
 	<h1> TP1: Exercice2</h1>		
 	<?php  
@@ -39,7 +39,7 @@
 	   // AFFICHAGE
 	   echo '
 	   <div class="affichage" style="overflow-x: scroll;">
-	       <button onclick="window.location.href=\'form.php\';">Formulaire de saisie</button>		
+	       <button onclick="window.location.href=\'form.php\';" style="width:100%">Retour au formulaire de saisie </button>		
 		   <table>
 			 <tr><td >Nom:</td><td >'.$nom.' </td></tr>		 
 			 <tr><td >Prénom:</td><td >'.$prenom.'</td></tr>			 		 

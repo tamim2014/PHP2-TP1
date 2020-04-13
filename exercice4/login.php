@@ -8,20 +8,34 @@
 	<title>TP2: Exercice4</title>
 	<style>
 	    input{     
-		    padding:0;		 
+		    padding:0.3em 0;		 
         }
+
 	    table input {
-		   width:98% ;		  
+		   width:98% ;
+           outline:none;
+            border:2px solid white;
+            background:#eee;			
 	    }	   
-        /* Liens vers infos.php et infos2.php */	   
+        /* Liens vers infos.php et infos2.php 	 */   
+		
 	   form input ~ input {		   
-		   width:35.5%;
-		   margin:0 0 0  4.8%;
+		   width:32.5%;
+		   margin:0.1em 0;
+		   outline:none;
+		   
+		 
+	   }
+	   /* Liens vers infos.php et infos2.php 	 */  
+	    form input ~ input ~ input {		   
+         float:right;
+
+		  margin-right:4px !important;
 	   }
 
 	   .submit_{
-		   width:32%;
-		   margin:0 0 0 2px;
+		   width:25%;
+		   margin:0 4px 0 2px;
 	   }
 	</style>
 </head>
@@ -29,12 +43,13 @@
     <div class="contenu">
 		<h3>Travail sur les sessions</h3>
 		<p> Merci de saisie vos coordonnées </p>
-		<form action="" method="post" class="form" style="padding:0; margin-left:0; ">
+		<form action="" method="post" class="form" style="padding:0; margin-left:0; background:#bbb;">
             <table style=" padding:0; margin:0; width:100%;">		
-				<tr><td> Nom:</td><td>  <input type="text" name="nom"></td></tr>
-				<tr><td>  Prénom:</td><td>  <input type="text" name="prenom"></td></tr>
-				<tr><td>  Mode de passe:</td><td>  <input type="password" name="motPasse"></td></tr>			
+				<tr><td> Nom:</td><td>  <input type="text" name="nom" ></td></tr>
+				<tr><td> Prénom:</td><td>  <input type="text" name="prenom"></td></tr>
+				<tr><td> Passe:</td><td>  <input type="password" name="motPasse"></td></tr>			
             </table>
+			
 			<input type="submit" name="submit" value="Accéder" class="submit_"  />
 			<input type="button" onclick="window.location.href='infos.php';" value="Infos ..." />
 			<input type="button" onclick="window.location.href='info2.php';" value="Info2 ..." />

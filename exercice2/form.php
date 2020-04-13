@@ -5,14 +5,19 @@
 	<link rel="stylesheet" href="../style.css" />
 	<link rel="shortcut icon" href="../favicon.ico"  />
 	<style>
-	  input{
-         width:39%;
+	  input{	  
+          max-width:auto; /* width:39%;  blem sersponsive */
+          padding:1% 30%;  /* blem responsive à moitié resolu( blem de superposition à gauche)!! */      	  
+          float:right;
+       		  
       }
+	
+	  
 	</style>
 </head>
 <body>
     <div class="barreLeterale">
-	  <a href="#"><strong>TP1</strong></a>
+	  <a href="../index.php"><strong>TP1</strong></a>
 	  <a href="../exercice1/index.php">Exercice1</a>
 	  <a href="#">Exercice2</a>
 	  <a href="../exercice3/formulaire.php">Exercice3</a>
@@ -22,17 +27,19 @@
 
     <h1 > Exercice2 </h1>
 	<!-- <form action="corps.php" method="get" class="form" style="padding-right:17em; margin-left:-7em; "> -->
+
 	<form action="corps.php" method="get" class="form" style="padding:0; margin-left:0;">   
-	   <table style=" padding:0; margin:0; width:100%;">
-	     <tr><td>Nom :</td><td><input type="text" name="nom" placeholder="Votre nom"></td></tr>
-		 <tr><td>Prénom:</td><td><input type="text" name="prenom" placeholder="Votre prenom"></td></tr>
-		 <tr><td>Password:</td><td><input type="password" name="password" placeholder="Votre mot de passe"></td></tr>
+	   <table style=" padding:0 ; margin:0 ; width:100%; " >
+	     <tr><td>Nom :</td><td><input type="text" name="nom" ></td></tr>
+		 <tr><td>Prénom:</td><td><input type="text" name="prenom"></td></tr>
+		 <tr><td>Password:</td><td><input type="password" name="password" ></td></tr>
 		 <tr><td>Punition:</td><td><input type="text" name="punition"></td></tr>
 		 <tr><td>nbFois:</td><td><input type="number" name="nbFois" value="10"></td></tr>
 		 
 		 <tr ><td colspan="2" ><input type="submit" name="submit" value="Envoyer"  style="width:100%;"></td></tr>
 	   </table>
 	</form>
+
 	
 	
 	<!-- Questionnaire de L'exercice2 -->
