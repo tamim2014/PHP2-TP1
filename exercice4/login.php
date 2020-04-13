@@ -16,7 +16,7 @@
         /* Liens vers infos.php et infos2.php */	   
 	   form input ~ input {		   
 		   width:35.5%;
-		   margin:0 0  0 4.8%;
+		   margin:0 0 0  4.8%;
 	   }
 
 	   .submit_{

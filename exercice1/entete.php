@@ -14,8 +14,8 @@
 	  <a href="#"><strong>TP1</strong></a>
 	  <a href="../exercice1/index.php">Exercice1</a>
 	  <a href="../exercice2/form.php">Exercice2</a>
-	  <a href="#">Exercice3</a>
-	  <a href="#">Exercice4</a>
+	  <a href="../exercice3/formulaire.php">Exercice3</a>
+	  <a href="../exercice4/index.php">Exercice4</a>
 	</div>
 	<div class="main">
 
