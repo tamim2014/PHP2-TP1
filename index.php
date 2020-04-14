@@ -22,6 +22,8 @@
 		}
 		summary{
 			margin-right:1.8%;
+		  	outline:none !important;
+			border:none !important;
 		}
 		.exemple{
 			width:60%; 
@@ -212,8 +214,8 @@
 										foreach( $Prenoms as $value )  echo $value.'&lt;br&gt;';										
 										
 									<span style="color:green">//Tableau associatif</span>
-										$identite = array( 'Nom'=>'Jacques', 'Prenom'=>'Jean', 'Age'=>'99' );
-										foreach($identite as $value) echo $value.'&lt;br&gt;';									   										
+										$personne = array( 'Nom'=>'Jacques', 'Prenom'=>'Jean', 'Age'=>'99' );
+										foreach($personne as $value) echo $value.'&lt;br&gt;';									   										
 								?>
 							</pre>
 					    </span> 
@@ -221,15 +223,16 @@
 				</details>
 				<details>
 				  <summary>Comment rechercher une valeur ? (cf. array key exists, in array, array search)</summary>
-				  <div class="paragraphe" style="padding-left:2px; font-size:0.8em;">
+				  <!-- <div class="paragraphe" style="padding-left:2px; font-size:0.8em;"> -->
+				  <div class="paragraphe petitParagraphe" style="background:white; width:83% !important;"> 
 					  &emsp;&#8718; Vérifiez si la colonne "Age" existe dans la table personne:<br>
-					  &emsp;&#8718; <b>if (array_key_exists("Age",$personne))</b> echo 'La colonne Age éxiste ';<br>
+					  &emsp;&#8718; <b>if (array_key_exists("Age",$personne))</b> echo 'La colonne Age éxiste ';
 					  <p></p>
 					  &emsp;&#8718; Est-ce qu'il a une personne de 99ans dans la table  personne?<br>
-					  &emsp;&#8718; <b>echo array_search("99",$personnes);</b><small style="color:green">//Si oui, ça retourne le nom de la colone(Age)</small><br>
+					  &emsp;&#8718; <b>echo array_search("99",$personnes);</b><small style="color:green">//Si oui, ça retourne le nom de la colone(Age)</small>
 					  <p></p>
 					  &emsp;&#8718; Est-ce que "Paul" il existe dans la table prenom<br>
-					  &emsp;&#8718; <b>if (in_array("Paul", $prenoms))</b> echo 'il est bien présent dans cette table'<br>
+					  &emsp;&#8718; <b>if (in_array("Paul", $prenoms))</b> echo 'il est bien présent dans cette table'
 				  </div>
 
 				</details>
