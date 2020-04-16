@@ -7,22 +7,6 @@
 	<title> PHP2: TP1/Exercice1 </title>
 	<link rel="stylesheet" href="../style.css" />
 	<link rel="shortcut icon" href="../favicon.ico"  />
-	<style>
-	    body{
-			margin:0;
-		}
-	   	.barreLeterale {
-		 width: 200px;	
-		}
-		.main {
-			margin-left: 200px; 
-			padding:5% 10%;
-		}
-		
-		h4, .contenu, footer {
-			background-color:white;
-		}
-	</style>
 </head>
 
 <body>

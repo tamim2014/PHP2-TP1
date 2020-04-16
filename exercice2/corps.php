@@ -6,7 +6,7 @@
 	   //Le cops de la page commence ici 
 		 echo '	
 			
-			<div class="contenu">
+			<div class="contenu" style="padding:5%;">
 			<b> TP1: Exercice2</b><br>
 		 ';	
  
@@ -30,9 +30,9 @@
 		  
 	   // AFFICHAGE
 	   echo '
-	   <div class="affichage" style="overflow-x: scroll;">
-	       <button onclick="window.location.href=\'index.php\';" style="width:100%">Retour au formulaire de saisie </button>		
-		   <table class="affichePunition">
+	   <div class="affichage affichageExo2"  style="overflow-x: scroll; width:auto;">
+	       <button onclick="window.location.href=\'index.php\';" style="width:100%;  padding:1% 0;">Retour au formulaire de saisie </button>		
+		   <table class="affichePunition affichageExo2" style="border:none; border-collapse: collapse;  margin:0;">
 			 <tr><td >Nom:</td><td >'.$nom.' </td></tr>		 
 			 <tr><td >Prénom:</td><td >'.$prenom.'</td></tr>			 		 
 			 <tr><td>Mot de passe:</td><td>'.$password.'</td></tr>		 

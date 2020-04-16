@@ -2,10 +2,10 @@
 <?php  
 
     echo '
-		<div class="contenu">	
+		<div class="contenu" style="padding:5%;">	
 			<b> Exercice2 </b>
 			<form action="corps.php" method="get" class="form" style="padding:0; margin-left:0;">   
-			   <table class="saisie" style=" padding:0 ; margin:0 ; width:100%;" >
+			   <table class="saisieExercice2" style=" padding:0 ; margin:0 ; width:100%;" >
 				 <tr><td>Nom :</td><td><input type="text" name="nom" ></td></tr>
 				 <tr><td>Prénom:</td><td><input type="text" name="prenom"></td></tr>
 				 <tr><td>Password:</td><td><input type="password" name="password" ></td></tr>

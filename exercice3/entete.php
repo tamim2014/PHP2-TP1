@@ -5,25 +5,9 @@
 	<link rel="stylesheet" href="../style.css" />
 	<link rel="shortcut icon" href="../favicon.ico"  />
 	<style>
-	    /*********** Zoning ***************/
-	    body{
-			margin:0;
-		}
-	   	.barreLeterale {
-		 width: 200px;	
-		}
-		.main {
-			margin-left: 200px; 
-			padding:5% 10%;
-		}
 		
-		h4, .contenu, footer {
-			background-color:white;
-		}
+	    /*********** ENTREE ***************/
 		
-	    /*********** Entrée ***************/
-		
-
 		.contenu {
 			border:1px dashed #8c8b8b;
 			border-radius:12px; 
@@ -39,8 +23,6 @@
 		   width:100%;
 		   padding:0;
         }
-
-		
 		
 		.exo3 .paragraphe{
 			width: 96%;
@@ -48,7 +30,7 @@
 		 
 		.saisieExo3 input{
           width:100%;
-          box-sizing: border-box; /*  sinon ça dépasse pour google chrome*/		  
+          box-sizing: border-box !important; /*  sinon ça dépasse pour google chrome*/		  
 		  margin:0;
 		  padding:0.5em 0; 
 		  
@@ -61,15 +43,24 @@
 			  0 15px 15px 0 #555 inset,
 			  0 -10px 1px 0 #777 inset;
 			background-color:#ddd;
+			border-top:none;
+			border-left:2px solid #bbb;
 				
 		}
 		
-
+		/*********** SORTIE ***************/
 		
-        
-	
+		.pageSecrete{
+			height:200px;
+			margin-top:0;
+			width:96%;
+		}
+		
+		.controlePassword {
+			width:auto !important;
+			color:red; 
+		}	
 	</style>
-
 </head>
 <body>
     <div class="barreLeterale">

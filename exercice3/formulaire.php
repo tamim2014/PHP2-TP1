@@ -22,8 +22,8 @@ echo '
 		$password = $_POST["password"];
 		// AFFICHAGE
 		$resultat = strcmp($motdepasse,$password);
-		if ($resultat !== 0) echo '<p class="paragraphe  idS" style="color:red; width:auto;" ><b>Mot de passe erroné ! </b></p>';		   
-		else  echo '<p class="paragraphe" style="height:200px;   margin-top:0; width:96%;"> Voici le plus grand secret de tous les temps :<br> "Le cheval d’Henri IV était blanc" </p>';		   	
+		if ($resultat !== 0) echo '<p class="paragraphe  idS controlePassword"><b>Mot de passe erroné ! </b></p>';		   
+		else  echo '<p class="paragraphe pageSecrete" > Voici le plus grand secret de tous les temps :<br> "Le cheval d’Henri IV était blanc" </p>';		   	
 	}		
 
 	// Réponse au questionnaire de l'exercice3

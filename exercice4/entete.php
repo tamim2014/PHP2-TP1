@@ -8,23 +8,8 @@
 	<link rel="stylesheet" href="../style.css" />
 	<link rel="shortcut icon" href="../favicon.ico"  />
 	<style>
-	   /*********** Zoning ***************/
-	    body{
-			margin:0;
-		}
-	   	.barreLeterale {
-		 width: 200px;	
-		}
-		.main {
-			margin-left: 200px; 
-			padding:5% 10%;
-		}
-		
-		h4, .contenu, footer {
-			background-color:white;
-		}
 	
-	   /*********** Contenu ***************/
+	   /*********** ENTREE ***************/
 	
 	    input{     
 		    padding:0.3em 0;		 
@@ -33,24 +18,24 @@
 	    table input {
 		   width:98% ;
            outline:none;
-            border:2px solid white;
-            background:#eee;			
-	    }	   
-        /* Liens vers infos.php et infos2.php 	 */   
+           border:2px solid white;
+           background:#eee;			
+	    }
+		
+        /* Liens vers infos.php et infos2.php */   
 		
 	   form input ~ input {		   
 		   width:35.8%;
 		   margin:0.1em 0;
-		   outline:none;
-		 
-		   
-		 
+		   outline:none;		 
 	   }
-	   /* Liens vers infos.php et infos2.php 	 */  
+	   
+	   /* Liens vers infos.php et infos2.php */ 
+	   
 	    form input ~ input ~ input {		   
-         float:right;
-		 margin-right:4px !important;
-		 width:35.8%;
+           float:right;
+		   margin-right:4px !important;
+		  width:35.8%;
 	   }
 
 	   .submit_{
@@ -58,14 +43,14 @@
 		   margin:0 4px 0 2px;
 	   }
 	   
-	   .attention{
-		  background:#ff1;
-		  border-radius:2px;
-	
-		  border:2px solid red; 
-		  background:gold;
-		  font:normal 0.7em calibri ligth
-	   }
+
+	   /*********** SORTIE ***************/
+	   
+	    .affichageExo4{
+			  
+			/* je laisse la page neutre */
+		}
+	   
 	</style>
 </head>
 

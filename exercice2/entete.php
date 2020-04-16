@@ -6,13 +6,12 @@
 	<meta charset="utf-8">
 	<title> PHP2: TP1/Exercice1 </title>
 	<link rel="shortcut icon" href="../favicon.ico"  />
-	<!-- <link rel="stylesheet" href="style.css" /> -->
-	<link rel="stylesheet" href="styleExo2.css" />
-	<style>
-	
+	<link rel="stylesheet" href="../style.css" /> 
+	<!-- <link rel="stylesheet" href="styleExo2.css" /> -->
+	<style>	
 	    /*********** Entrée ***************/
 		
-		table.saisie input{	  
+		table.saisieExercice2 input{	  
 	        max-width:auto; /* width:39%;  blem sersponsive */
           padding:1% 30%;  /* responsive à moitié resolu( superposition à gauche si on réduit l'écran)!! */      	  
           float:right;
@@ -33,10 +32,7 @@
 		}
 		table.affichePunition td {
 			padding:0.5em 1em ;			
-		}
-		
-
-		
+		}				
 	</style>
 
 </head>
