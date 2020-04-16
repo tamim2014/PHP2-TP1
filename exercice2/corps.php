@@ -69,6 +69,7 @@
 
     
     echo '</div>'; // fin div.contenu
+	include 'piedPage.php'; 
    
 	 
 ?>

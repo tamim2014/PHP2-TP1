@@ -18,6 +18,10 @@
 			margin-left: 200px; 
 			padding:5% 10%;
 		}
+		
+		h4, .contenu, footer {
+			background-color:white;
+		}
 	</style>
 </head>
 
