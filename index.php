@@ -49,7 +49,7 @@
 	  <a href="exercice2/index.php">Exercice2</a>
 	  <a href="exercice3/formulaire.php">Exercice3</a>
 	  <a href="exercice4/index.php">Exercice4</a>
-	   <a href="#">Sujet</a>
+	  <a href="sujet/index.php">Sujet</a>
 	</div>
 	<div class="main">
     <h1 > Questionnaire </h1>

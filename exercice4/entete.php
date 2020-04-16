@@ -76,7 +76,7 @@
 	  <a href="../exercice2/index.php">Exercice2</a>
 	  <a href="../exercice3/formulaire.php">Exercice3</a>
 	  <a href="#">Exercice4</a>
-	  <a href="#">Sujet</a>
+	  <a href="../sujet/index.php">Sujet</a>
 	</div>
 	<div class="main">
 
