@@ -1,12 +1,12 @@
  body{  
-    margin:5% 30%; 
+    margin:0;
 	background:#ECECEA;
  }
  
- /************** barre laterale *********************/
+ /************** zONING *********************/
 .barreLeterale {
   height: 100%;
-  width: 160px;
+  width: 200px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -32,45 +32,67 @@
   .barreLeterale {padding-top: 15px;}
   .barreLeterale a {font-size: 18px;}
 }
- 
+
+.main {
+	margin-left: 200px; 
+	padding:5% 10%;
+}
+
 
  
- /************* Contenu ******************/
+ /************* exo2(Contenu) ******************/
 
  h4, .contenu {
 	border:1px dashed #8c8b8b;
-	border-radius:6px;
-	padding:2% 22% ;
+	border-radius:12px; /* border-radius:6px; */
+	padding:5%;/* padding:2% 22% ; */
+ }
+ h4{
+	 text-align:center;	 
  }
 
- .contenu{
- 	border-radius:12px;
- }
 
  footer{
 	margin-top:1em;
-	padding:2% 0 ;
+	padding:5%; /* padding:2% 0 ; */
+	/*
 	text-align:center;
+	*/
 	border:1px dashed #8c8b8b;
 	border-radius:6px;
  }
  
- /* login.php */
+ /**************** exo2(corps.php) exo3(login.php)************************ */
  
  .form, .affichage, table{	 
+	 
+	  width:100%;	  
+	  padding:0;/* padding:100px; */
 	  margin: 0 auto;
-	  width:100%; 
-	  padding:100px;
+      height:auto;	  
 	  background-color:white;   
 	  box-shadow:
 		0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset,
 		0px 2px 2px 0px rgba(255, 255, 255, 0.5);
 	  border:1px solid #8c8b8b; 
  }
- table{ border:none;}
+ .affichage{
+	width:auto; 
+ }
+ table{ 
+    border:none;
+	border-collapse: collapse;
+   
+    margin:0;
+}
+
+
+ 
+button{ 
+   padding:1% 0;
+}
  
  button:hover{
-
 	 cursor:pointer;
  }
  input{

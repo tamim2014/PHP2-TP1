@@ -8,6 +8,8 @@
 		body{
 			margin:0;
 		}
+		
+		/******************ZONING ****************************/
 		.barreLeterale {
 		 width: 200px;	
 		}
@@ -16,10 +18,13 @@
 			font-size: 18px; 
 			padding: 0px 10px;
 		}
+		
+		/******************ZONING ****************************/
 		.paragraphe{
 			padding-left:2em;
 			width:90%;
 		}
+				
 		summary{
 			margin-right:1.8%;
 		  	outline:none !important;
@@ -41,7 +46,7 @@
     <div class="barreLeterale">
 	  <a href="#"><strong>TP1</strong></a>
 	  <a href="exercice1/index.php">Exercice1</a>
-	  <a href="exercice2/form.php">Exercice2</a>
+	  <a href="exercice2/index.php">Exercice2</a>
 	  <a href="exercice3/formulaire.php">Exercice3</a>
 	  <a href="exercice4/index.php">Exercice4</a>
 	</div>
@@ -88,24 +93,24 @@
 				  <summary>Quelle &ne; entre <b>while</b> et <b>for </b>?</summary>
 				   <ul type="square" class="paragraphe petitParagraphe" style="margin-bottom:0.4em !important; "> 
 					  <li>
-						 <b>for</b>: Repète la "<b><i>punition</i></b>" un "<b><i>nbFois</i></b>" précis et puis c'est tout.
+						 <b>for(<span style="color:#990099">itération</span>) { &emsp; instruction; &emsp; }</b><br><small> Repète la "<b><i>punition</i></b>" un "<b><i>nbFois</i></b>" précis et puis c'est tout.</small>
 					  </li>
 					  <li>
-						 <b>while</b>: Lui, il est dingue! On peut l'foutre n'importe quoi, elle va répeter la "<b><i>punition</i></b>" tant que la connerie n'est pas vraie.<br><br> Même si <i style="color:#990033"> "condition = dateFinDuMonde"</i>, elle continue d'afficher la "<b><i>punition</i></b>"" jusqu'à planter la machine.
+						 <b>while(<span style="color:#990033">condition</span>) { &emsp; instruction; &nbsp; <span style="color:#990099">itération; &emsp; </span> }</b><br><small> Lui, il est dingue! On peut l'foutre n'importe quoi, elle va répeter la "<b><i>punition</i></b>" tant que la connerie n'est pas vraie.<br>Même si <i style="color:#990033"> "condition = dateFinDuMonde"</i>, elle continue d'afficher la "<b><i>punition</i></b>"" jusqu'à planter la machine.</small>
 					  </li>
-				   </ul>
+				   </ul><br>
 					<span>Un exemple avec <b>while</b></span>							   
 
 					<div class="exemple">
 					   <span class="idS subQuestion t-transparent" style="margin-top:0 !important; width:91.91%; background:white !important;">
 						   <pre >
 								&lt;?php  	
-									$n = 1;
-									$nbFois = 10;
-									while( $n &lt;= $nbFois ){
-										&emsp; echo $punition.'&lt;br/>';		
-										&emsp; $n++; 
-									}
+									&emsp;$n = 1;
+									&emsp;$nbFois = 10;
+									&emsp;while( $n &lt;= $nbFois ){
+										&emsp;&emsp; echo $punition.'&lt;br/>';		
+										&emsp;&emsp; $n++; 
+									&emsp;}
 								?>
 							</pre>
 					    </span> 
@@ -115,10 +120,10 @@
 						<span class="idS subQuestion t-transparent" style="margin-top:0 !important; width:91.91%; background:white !important;">
 						<pre>
 							&lt;?php  	
-								$nbFois = 10;
-								for( $i=0; $i &lt;= $nbFois; $i++ ){
-									&emsp; echo $punition.'&lt;br/>';		
-								}
+								&emsp;$nbFois = 10;
+								&emsp;for( $i=0; $i &lt;= $nbFois; $i++ ){
+									&emsp;&emsp; echo $punition.'&lt;br/>';		
+								&emsp;}
 							?>
 						</pre>
 						</span> 
@@ -226,13 +231,13 @@
 				  <!-- <div class="paragraphe" style="padding-left:2px; font-size:0.8em;"> -->
 				  <div class="paragraphe petitParagraphe" style="background:white; width:83% !important;"> 
 					  &emsp;&#8718; Vérifiez si la colonne "Age" existe dans la table personne:<br>
-					  &emsp;&#8718; <b>if (array_key_exists("Age",$personne))</b> echo 'La colonne Age éxiste ';
+					  &emsp;&#8718; <b>if ( array_key_exists("Age", $personne) )</b> echo 'La colonne Age éxiste ';
 					  <p></p>
 					  &emsp;&#8718; Est-ce qu'il a une personne de 99ans dans la table  personne?<br>
-					  &emsp;&#8718; <b>echo array_search("99",$personnes);</b><small style="color:green">//Si oui, ça retourne le nom de la colone(Age)</small>
+					  &emsp;&#8718; <b>echo array_search("99", $personnes);</b><small style="color:green">//Si oui, ça retourne le nom de la colone(Age)</small>
 					  <p></p>
-					  &emsp;&#8718; Est-ce que "Paul" il existe dans la table prenom<br>
-					  &emsp;&#8718; <b>if (in_array("Paul", $prenoms))</b> echo 'il est bien présent dans cette table'
+					  &emsp;&#8718; Est-ce que "Paul" existe dans la table prenom<br>
+					  &emsp;&#8718; <b>if ( in_array("Paul", $prenoms) )</b> echo 'il est bien présent dans cette table'
 				  </div>
 
 				</details>
