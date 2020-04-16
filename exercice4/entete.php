@@ -64,7 +64,7 @@
 	
 		  border:2px solid red; 
 		  background:gold;
-		  font:normal 0.8em calibri ligth
+		  font:normal 0.7em calibri ligth
 	   }
 	</style>
 </head>
@@ -76,6 +76,7 @@
 	  <a href="../exercice2/index.php">Exercice2</a>
 	  <a href="../exercice3/formulaire.php">Exercice3</a>
 	  <a href="#">Exercice4</a>
+	  <a href="#">Sujet</a>
 	</div>
 	<div class="main">
 

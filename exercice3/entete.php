@@ -78,6 +78,7 @@
 	  <a href="../exercice2/index.php">Exercice2</a>
 	  <a href="#">Exercice3</a>
 	  <a href="../exercice4/index.php">Exercice4</a>
+	   <a href="#">Sujet</a>
 	</div>
 	<div class="main"> <!-- se ferme juste avant </body> -->
 		<div id="en-tete" > 
