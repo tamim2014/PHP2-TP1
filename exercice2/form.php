@@ -3,7 +3,7 @@
 
     echo '
 		<div class="contenu" style="padding:5%;">	
-			<b> Exercice2 </b>
+			<b> Exercice2: </b> Transmissionde données( get vs post )
 			<form action="corps.php" method="get" class="form" style="padding:0; margin-left:0;">   
 			   <table class="saisieExercice2" style=" padding:0 ; margin:0 ; width:100%;" >
 				 <tr><td>Nom :</td><td><input type="text" name="nom" ></td></tr>

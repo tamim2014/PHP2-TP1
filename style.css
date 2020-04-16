@@ -57,19 +57,14 @@ h4, .contenu, footer {
  }
  
 
-
-
  footer{
 	margin-top:1em;
-	padding:2% 0 ;
-	text-align:center;
+	padding:2% 22% ;  
+    text-align:left; 	
 	border:1px dashed #8c8b8b;
 	border-radius:6px;
  }
- .footerExo2{
-	padding:5%; /* padding:2% 0 ; */
-    text-align:left; /* text-align:center;  */	
- }
+
  
  /* exo2(corps.php), exo3(login.php) */
  
