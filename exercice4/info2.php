@@ -1,4 +1,3 @@
-
 	
 <?php 
 	  include 'enteteInfo2.php' ;
@@ -18,7 +17,7 @@
 			echo '<p><table border="5" class="info2" style="float:left"><tr><td>&#9200;</td></tr></table> <div style="float:left; padding-top:0.5em;">  &#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9867;&#9658;</div><table border="5" class="info2"><tr><td> <b>'.$dureeSession.' S</b></td></tr></table></p>';
 
 		}else{
-			echo '<h2>Renseigner une nouvelle session</h2>'.$connexion;
+			echo '<h3 >Renseigner une nouvelle session</h3>'.$connexion;
 			
 		}	
 		//logout   

@@ -49,6 +49,9 @@
 	
 	
 	/************** Contenu ***********************/
+	    .contenu{
+			border-radius:12px;
+		}
 		table.info2{
 			margin-top:1.5em;
 			display:inline-block;
@@ -90,9 +93,7 @@
 			color:#990066; 
 			font-size:1.4em;
 			box-shadow:0.2px 2px 16px 0px #8c8b8b;
-            border:none ;	
-			
-			
+            border:none ;							
 		}
 
 	</style>
