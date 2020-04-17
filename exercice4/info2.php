@@ -22,7 +22,7 @@
 			
 		}	
 		//logout   
-		if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 10)) {
+		if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 30)) {
 			session_unset(); 
 			session_destroy(); 
 			echo '<p><table border="5"  class="info2" style="float:left"><tr><td ><span style="color:red">&#9200;</td></tr></table><div class="msgDeconnexion" >&nbsp;&nbsp;Vous êtes déconnecté !</div></p><br><p style="margin:4em 2em 2em 0;">'.$connexion.'</p>' ;			
