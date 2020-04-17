@@ -48,7 +48,7 @@
 	   
 	    .affichageExo4{
 			  
-			/* je laisse la page neutre */
+			/* voir page info2.php */
 		}
 		
 	   
